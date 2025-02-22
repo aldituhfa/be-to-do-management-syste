@@ -11,6 +11,7 @@
     "start": "node ./bin/www",
     "prepare": "husky",
     "postinstall": "prisma generate",
+    "vercel-build": "prisma generate && prisma generate deploy",
     "test": ""
   },
   "dependencies": {
