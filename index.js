@@ -8,7 +8,6 @@ var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
 // Import DB Connection
-
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var tasksRouter = require('./routes/tasks');

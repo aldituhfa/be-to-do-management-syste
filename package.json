@@ -9,8 +9,9 @@
   "scripts": {
     "dev": "nodemon -w ./*.js ./*.js",
     "start": "node ./bin/www",
-    "prepare": "husky"
-    ,"test": ""
+    "prepare": "husky",
+    "postinstall": "prisma generate",
+    "test": ""
   },
   "dependencies": {
     "@prisma/client": "^6.3.0",
